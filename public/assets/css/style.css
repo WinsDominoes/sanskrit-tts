@@ -1,0 +1,28 @@
+body{
+    margin:0;
+    padding:0
+}
+button{
+    border:none;
+    border-radius:2px;
+    padding:12px 18px;
+    font-size:16px;
+    text-transform:uppercase;
+    cursor:pointer;
+    color:#fff;
+    background-color:#2196f3;
+    box-shadow:0 0 4px #999;
+    outline:none
+}
+pre{
+    white-space:pre-line
+}
+form, input, textarea, label, p, select, option{
+    color: #fff !important
+}
+#icon{
+    max-width:45px;
+    height:auto;
+    border-radius:50%
+}
+

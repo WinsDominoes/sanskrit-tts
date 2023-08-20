@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "sanskrit-tts": "^1.0.0",
+    "uuid": "^9.0.0"
+  }
+}

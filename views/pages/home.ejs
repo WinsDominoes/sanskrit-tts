@@ -1,0 +1,41 @@
+<%- include('../partials/header'); %>
+
+<div class="column shadow-sm p-3 m-4 bg-dark-3 text-light">
+    <div align="left">
+        <h1>Sanskrit TTS</h1>
+        <p>Enter your text below to convert to speech.</p>
+
+        <form>
+            <div class="form-group">
+                <label for="script">Writing Script</label>
+                <select name="script" id="script" class="custom-select" required></select> 
+            </div>
+
+            <div class="form-group">
+                <label for="textInput">Text Input</label>
+                <textarea class="form-control" id="textInput" placeholder="Enter your Sanskrit..." rows="3" name="text" required></textarea>
+            </div>
+
+            <div class="form-group">
+                <button type="button" class="btn btn-dark" id="formSubmit" name="formSubmit">Submit</button>
+            </div>
+        </form>
+
+        <hr>
+        
+        <h3>Result</h3>
+        <div id="resultContainer">
+            <div id="audioContainer" style="display: none;">
+                <div class="gapContainer">
+                    <audio controls id="audioPlayer">
+                        <source src="" id="ttsAudio">
+                        Your browser does not support the audio element.
+                    </audio> 
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<%- include('../partials/footer'); %>
+
