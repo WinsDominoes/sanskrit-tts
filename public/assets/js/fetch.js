@@ -25,7 +25,7 @@ $('#formSubmit').click(function () {
             if(response) {
                 const url = body.url;
 
-                $('#audioContainer').css("display", "block");
+                $('#resultContainer').css("display", "block");
 
                 setTimeout(() => {
 
